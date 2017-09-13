@@ -43,7 +43,7 @@ class Wordfreq
 
   def print_report
     top_words(10).each do |word, number|
-      puts "#{word} | #{number}" + '*' *number
+      puts "#{word} | #{number}" + '*' * number
     end
   end
 
